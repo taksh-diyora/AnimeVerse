@@ -51,45 +51,16 @@
 
 Your project likely includes:
 
-AnimeVerse/
-├── index.html ← Main homepage
-├── abtus.html ← About Us page
-├── catagories.html ← Categories page
-├── ctus.html ← Contact Us page
-├── style.css ← Stylesheet for the entire website
-├── pics/ ← Anime images and visuals
-│ ├── Capture.PNG
-│ ├── Uzumaki_anime.webp
-│ ├── akira.jpg
-│ ├── aot.jpg
-│ ├── attack-on-titan-2048x2048-10433.jpg
-│ ├── blue-lock-anime-2048x2048-20022.jpg
-│ ├── dandadan.jpeg
-│ ├── demon.jpg
-│ ├── detoroito.jpg
-│ ├── dragonballz.jpg
-│ ├── fma_wp.webp
-│ ├── fullmetal.jpg
-│ ├── gintama.jpg
-│ ├── hajime.jpg
-│ ├── image.png
-│ ├── jjk.jpg
-│ ├── mha7.jpg
-│ ├── mob.jpg
-│ ├── naruto-team-7-1280x1280-19989.jpg
-│ ├── naruto.jpg
-│ ├── oda.jpg
-│ ├── onepiece.jpg
-│ ├── onepunch.jpg
-│ ├── rezero-key-visual.jpg
-│ ├── sakamoto.jpg
-│ ├── solo-leveling-game-2048x2048-17908.jpeg
-│ ├── suzume-no-tojimari-2732x2732-11464.jpg
-│ ├── tdlsk.jpg
-│ └── your-name-1280x1280-14850.png
-├── vids/ ← Background and section videos
-│ ├── abtus.mp4
-│ ├── catagories.mp4
-│ ├── ctus.mp4
-│ └── index.mp4
-└── README.md ← Project documentation
+- **index.html** → Main homepage  
+- **abtus.html** → About Us page  
+- **catagories.html** → Categories page  
+- **ctus.html** → Contact Us page  
+- **style.css** → Stylesheet for the entire website  
+
+### Folders:
+- **pics/** → Anime images and visuals  
+  - `Uzumaki_anime.webp`, `akira.jpg`, `aot.jpg`, `dragonballz.jpg`, `onepiece.jpg`, …  
+- **vids/** → Background and section videos  
+  - `abtus.mp4`, `catagories.mp4`, `ctus.mp4`, `index.mp4`  
+
+- **README.md** → Project documentation
