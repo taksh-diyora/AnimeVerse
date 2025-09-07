@@ -1,0 +1,487 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    background: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    color: white;
+    padding-top: 60px;
+    overflow: auto;
+}
+
+
+.hero-section {
+    padding: 80px 20px;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
+
+
+.content-section {
+    padding: 40px 20px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.section-title {
+    text-align: center;
+    color: #ffffff;
+}
+
+.featured-anime {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.top-anime-ranking {
+    padding: 50px 20px;
+}
+
+.top-anime-ranking ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.top-anime-ranking li {
+    background-color: rgba(255, 255, 255, 0.275);
+    padding: 20px;
+    width: 22%;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.top-anime-ranking li:hover{
+    transform: scale(1.05);
+    background-color: rgba(255, 255, 255, 0.677);
+}
+
+.top-anime-ranking h3 {
+    font-size: 1.4em;
+    color: #333;
+}
+
+.top-anime-ranking p{
+    color: black;
+}
+
+.seasonal-releases {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.cen_jus{
+    display: flex;
+    justify-content: center;
+}
+
+.up_rel {
+    font-size: 2.5em;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.seasonal-releases .anime-release-card {
+    width: 40%;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    text-align: center;
+}
+
+
+
+.anime-release-card {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+}
+
+.seasonal-releases img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.anime-news {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+
+.anime-news ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.anime-news li {
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.anime-news li:hover {
+    background-color: rgba(255, 0, 93, 0.6);
+}
+
+.anime-news li a{
+    transition: color 0.3s ease;
+}
+
+.anime-news li a:hover {
+    color: white;
+}
+
+.anime-news a {
+    text-decoration: none;
+    color: #a0a0a0;
+    font-weight: bold;
+}
+
+.background-video-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    overflow: hidden;
+}
+
+.background-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: translate(-50%, -50%);
+}
+
+#unav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5px;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 2;
+}
+
+#lnav,
+#mnav,
+#rnav {
+    display: inline;
+}
+
+#mnav {
+    flex-grow: 1;
+    text-align: center;
+}
+
+#rnav {
+    text-align: center;
+}
+
+#logo {
+    width: 40px;
+    height: auto;
+    margin-right: 140px;
+}
+
+.mnav_btns {
+    border: 0;
+    background-color: transparent;
+    margin: 0 20px;
+    cursor: pointer;
+    color: gray;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+#mnav a {
+    padding: 10px 20px;
+    transition: color 0.5s ease, font-size 0.5s ease;
+}
+
+.mnav_btns:hover {
+    color: white;
+    font-size: 20px;
+}
+
+#home{
+    color: white;
+    font-size: 20px;
+}
+#catagories{
+    color: white;
+    font-size: 20px;
+}
+#ctus{
+    color: white;
+    font-size: 20px;
+}
+#abtus{
+    color: white;
+    font-size: 20px;
+}
+
+#s_m {
+    width: 180px;
+    height: 30px;
+    border-radius: 15px;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    color: white;
+    font-family: "Poppins", sans-serif;
+    transition: transform 0.3s ease;
+}
+
+#s_m:hover{
+    transform: scale(1.05);
+}
+
+main {
+    padding: 20px;
+}
+
+#featured,
+#recent,
+#advanture,
+#comedy,
+#action {
+    margin: 40px 0;
+}
+
+#featured h2,
+#recent h2,
+#advanture h2,
+#comedy h2,
+#action h2{
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+#anime-cards,
+#recent-episodes,.team {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.anime-card,
+.episode-card,.anime-release-card
+{
+    margin: 5px;
+    text-align: center;
+    max-width: 250px;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 8px;
+    border-radius: 16px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.team-member{
+    margin: 5px;
+    text-align: center;
+    max-width: 320px;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 8px;
+    border-radius: 16px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.anime-card img,
+.episode-card img,
+.team-member img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.anime-card h3,
+.episode-card p,
+.team-member h3 {
+    margin-top: 10px;
+}
+
+
+.anime-card:hover,
+.episode-card:hover,
+.anime-release-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 40px rgba(255, 0, 93, 0.8);
+}
+
+.team-member:hover{
+    transform: scale(1.05);
+    box-shadow: 0px 0px 40px rgba(194, 0, 0, 0.819);
+}
+
+.anime-card img:hover,
+.episode-card img:hover {
+    transform: scale(1.04);
+}
+
+.anime-card img,
+.episode-card img {
+    transition: transform 0.3s ease;
+    border-radius: 15px;
+}
+
+
+#logo_txt{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    margin-right: 17px;
+    margin-left: 10px;
+    text-shadow: 0px 0px 20px rgb(167, 0, 150);
+    border-radius: 20%;  font-family: "Audiowide", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer p {
+    color: gray;
+}
+
+.dis_txt {
+    font-family: sans-serif;
+    font-weight: 100;
+}
+
+.link_txt{
+    text-decoration: none;
+    color: white;
+}
+
+
+.t_txt,.hero-section,.up_rel,.section-title{
+    text-shadow: 0px 0px 10px rgba(255, 0, 93, 0.8);
+}
+
+.section-content{
+    margin-bottom: 30px;
+}
+
+.section_content_txt{
+    text-align: center;
+}
+
+.social_media{
+    color: rgb(255, 255, 255);
+    transition: text-shadow 0.3s ease,font-size 0.3s ease, color 0.3s ease;
+}
+
+.social_media:hover{
+    text-shadow: 0px 0px 10px   white;
+    color: red;
+    font-size: 20px;
+}
+
+#uname,#email,#user_description{
+    display: block;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 0px 10px;
+    color: white;
+    font-size: 15px;
+}
+
+#uname, #email{
+    width: 700px;
+    height: 40px;
+    transition: transform 0.3s ease;
+}
+
+#user_description{
+    height: 130px;
+    width: 700px;
+    resize: none;
+    transition: transform 0.3s ease;
+}
+
+#form_ctus {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#form_txt{
+    padding: 30px 20px;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+#submit_btn{
+    width: 700px;
+    height: 40px;
+    margin: 20px 0px 0px 0px;
+    background-color: rgba(255, 31, 31, 0.333);
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+#email:hover,
+#user_description:hover,
+#uname:hover{
+    transform: scale(1.05);
+
+}
+
+#submit_btn:hover{
+    transform: scale(1.05);
+    background-color: rgba(255, 31, 31, 0.6);
+}
+
+#main_ctus{
+    height: 660px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#uname_div, #email_div, #des_div{
+    margin-bottom: 20px;
+}
+
+.txt_form_elements{
+    font-size: 25px;
+}

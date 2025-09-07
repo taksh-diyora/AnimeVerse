@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="style.css">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Audiowide&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <div class="background-video-container">
+    <video autoplay muted loop class="background-video">
+      <source src="vids/ctus.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+
+  <header>
+    <nav id="unav">
+      <div id="lnav">
+        <a href="index.html" id="logo_txt">AnimeVerse</a>
+      </div>
+
+      <div id="mnav">
+        <a class="mnav_btns" href="index.html">Home</a>
+        <a class="mnav_btns" href="catagories.html">Categories</a>
+        <a class="mnav_btns" href="ctus.html" id="ctus">Contact Us</a>
+        <a class="mnav_btns" href="abtus.html">About Us</a>
+      </div>
+
+      <div id="rnav">
+        <input type="text" name="search_menu" id="s_m" placeholder="🔎 Search here...">
+      </div>
+    </nav>
+  </header>
+  <main id="main_ctus">
+    <div id="form_ctus">
+        <form action="#" method="post" id="form_txt">
+            <div class="ctus_details" id="uname_div">
+              <label for="uname" class="txt_form_elements">Enter Your Name</label>
+              <input type="text" id="uname" name="uname" placeholder="username">
+            </div>
+            <div class="ctus_details" id="email_div">
+              <label for="email" class="txt_form_elements">Enter Your Email Address</label>
+              <input type="email" name="email" id="email" placeholder="Email">
+            </div>
+            <div class="ctus_details" id="des_div">
+              <label for="user_description" class="txt_form_elements">Description</label>
+            <textarea name="user_description" id="user_description" placeholder="Enter The Description"></textarea>
+            </div>
+            <div class="sub_btn">
+              <input type="submit" value="Send" id="submit_btn">
+            </div>
+        </form>
+    </div> 
+  </main>
+  <footer>
+    <p>&copy; 2025 AnimeVerse | All Rights Reserved</p>
+  </footer>
+</body>
+
+</html>
